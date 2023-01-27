@@ -5,11 +5,11 @@ const ComponentsTopic = () => {
   return (
     <div id="components-div">
       <h3>Components in React</h3>
-      <Link to="/topics">
-        <button id="components-back-button">
-          Back
+      
+        <button id="components-back-button"><Link to="/topics">
+          Back</Link>
         </button>
-      </Link>
+      
     </div>
   );
 };

@@ -18,9 +18,9 @@ const Topics = () => {
         </li>
       </ul>
       <hr />
-      <Link to="/">
-        <button id="topics-back-button">Back</button>
-      </Link>
+      
+        <button id="topics-back-button"><Link to="/">Back</Link></button>
+      
     </div>
   );
 };
